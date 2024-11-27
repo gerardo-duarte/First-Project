@@ -1,0 +1,64 @@
+@media (min-width: 768px) {
+/** code for tables */
+  body{
+    background-color: greenyellow;
+  }
+}
+
+@media (min-width: 1024px) {
+/** code for desktop */
+  body{
+    background-color: pink;
+  }
+
+  header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--primary-color-alpha-10)
+  }
+
+  header #logo-desktop-color{
+    display: block;
+  }
+
+  header #logo-mobile{
+    display: none;
+  }
+
+  header .material-symbols-outlined{
+    display: none;
+  }
+
+  header .container{
+    width: 100%;
+    max-width: var(--max-width);
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  main section#view-demos{
+    display: flex;
+    padding-top: 97.2px;
+    padding-bottom: 112px;
+    padding-left: 130px;
+    padding-right: 130px;
+    flex-direction: row;
+  }
+
+  main section#statistics{
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  
+
+  main section#view-demos .container{
+    display: flex;
+    justify-content: space-between;  }
+
+  section #computer{
+    display: block;
+}
+}
